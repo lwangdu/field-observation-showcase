@@ -6,8 +6,8 @@
 			Plants: '#5ca904',
 			Insects: '#f4511e',
 			Fungi: '#d81b60',
-			Reptilia: '#00897b',
-			Amphibia: '#6d9f71'
+			Reptiles: '#00897b',
+			Amphibians: '#6d9f71'
 		};
 
 		return colors[ group ] || '#5ca904';

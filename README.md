@@ -12,7 +12,7 @@ This plugin is an independent WordPress plugin that displays publicly available 
 - Dynamic `iNaturalist Observations Map` block.
 - iNaturalist source options for project slug, project ID fallback, place ID, or user/account login.
 - Observation cards with photo, common name, scientific name, observation date, observer, and quality grade.
-- Filters for all observations, birds, mammals, plants, insects, and fungi.
+- Filters for all observations, birds, mammals, reptiles, amphibians, plants, insects, and fungi.
 - Stats cards for observations shown on the current page and all-time source totals.
 - Pagination for larger projects, with 100 observations per page by default.
 - Optional setting for opening iNaturalist links in a new tab.

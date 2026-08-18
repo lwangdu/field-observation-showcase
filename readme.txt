@@ -2,9 +2,9 @@
 Contributors: lobsangw
 Tags: inaturalist, observations, biodiversity, maps, block
 Requires at least: 6.5
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.8
+Stable tag: 0.2.9
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,7 +22,7 @@ Features include:
 * Dynamic iNaturalist Observations Map block.
 * Source options for iNaturalist project slug, project ID, place ID, or user/account login.
 * Observation cards with photo, common name, scientific name, observation date, observer, and quality grade.
-* Filters for all observations, birds, mammals, plants, insects, and fungi.
+* Filters for all observations, birds, mammals, reptiles, amphibians, plants, insects, and fungi.
 * Stats cards for observations shown on the current page and all-time source totals.
 * Pagination for larger projects.
 * Cached iNaturalist API requests using WordPress transients.
@@ -67,6 +67,10 @@ The plugin caches API responses in WordPress transients to reduce page-load time
 2. Observation map with reserve boundary, pins, and recent observation thumbnails.
 
 == Changelog ==
+
+= 0.2.9 =
+* Added Reptiles and Amphibians observation filters.
+* Declared compatibility with WordPress 7.1.
 
 = 0.2.8 =
 * Renamed the plugin to Field Observation Showcase and updated the plugin slug to avoid trademark concerns.

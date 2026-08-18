@@ -30,12 +30,14 @@ final class Field_Observation_Showcase_Cache {
 	 */
 	public static function group_options() {
 		return array(
-			''        => __( 'All', 'field-observation-showcase' ),
-			'birds'   => __( 'Birds', 'field-observation-showcase' ),
-			'mammals' => __( 'Mammals', 'field-observation-showcase' ),
-			'plants'  => __( 'Plants', 'field-observation-showcase' ),
-			'insects' => __( 'Insects', 'field-observation-showcase' ),
-			'fungi'   => __( 'Fungi', 'field-observation-showcase' ),
+			''           => __( 'All', 'field-observation-showcase' ),
+			'birds'      => __( 'Birds', 'field-observation-showcase' ),
+			'mammals'    => __( 'Mammals', 'field-observation-showcase' ),
+			'reptiles'   => __( 'Reptiles', 'field-observation-showcase' ),
+			'amphibians' => __( 'Amphibians', 'field-observation-showcase' ),
+			'plants'     => __( 'Plants', 'field-observation-showcase' ),
+			'insects'    => __( 'Insects', 'field-observation-showcase' ),
+			'fungi'      => __( 'Fungi', 'field-observation-showcase' ),
 		);
 	}
 
@@ -46,11 +48,13 @@ final class Field_Observation_Showcase_Cache {
 	 */
 	public static function iconic_taxa() {
 		return array(
-			'birds'   => 'Aves',
-			'mammals' => 'Mammalia',
-			'plants'  => 'Plantae',
-			'insects' => 'Insecta',
-			'fungi'   => 'Fungi',
+			'birds'      => 'Aves',
+			'mammals'    => 'Mammalia',
+			'reptiles'   => 'Reptilia',
+			'amphibians' => 'Amphibia',
+			'plants'     => 'Plantae',
+			'insects'    => 'Insecta',
+			'fungi'      => 'Fungi',
 		);
 	}
 
@@ -1225,8 +1229,8 @@ final class Field_Observation_Showcase_Cache {
 			'Plantae'  => __( 'Plants', 'field-observation-showcase' ),
 			'Insecta'  => __( 'Insects', 'field-observation-showcase' ),
 			'Fungi'    => __( 'Fungi', 'field-observation-showcase' ),
-			'Reptilia' => __( 'Reptilia', 'field-observation-showcase' ),
-			'Amphibia' => __( 'Amphibia', 'field-observation-showcase' ),
+			'Reptilia' => __( 'Reptiles', 'field-observation-showcase' ),
+			'Amphibia' => __( 'Amphibians', 'field-observation-showcase' ),
 		);
 
 		return sanitize_text_field( $labels[ $iconic_taxon_name ] ?? $iconic_taxon_name );

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Field Observation Showcase
  * Description: Field Observation Showcase lets organizations display observations from their iNaturalist projects on their WordPress website using cached API requests and a Gutenberg block. It provides a fast, easy way to showcase project observations while minimizing API calls.
- * Version: 0.2.8
+ * Version: 0.2.9
  * Requires at least: 6.5
  * Requires PHP: 7.4
  * Author: Lobsang Wangdu
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'FIELD_OBSERVATION_SHOWCASE_VERSION', '0.2.8' );
+define( 'FIELD_OBSERVATION_SHOWCASE_VERSION', '0.2.9' );
 define( 'FIELD_OBSERVATION_SHOWCASE_PATH', plugin_dir_path( __FILE__ ) );
 define( 'FIELD_OBSERVATION_SHOWCASE_URL', plugin_dir_url( __FILE__ ) );
 define( 'FIELD_OBSERVATION_SHOWCASE_PAGE_OPTION', 'field_observation_showcase_page_id' );
